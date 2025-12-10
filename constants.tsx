@@ -11,13 +11,14 @@ You are MateTax, an AI-powered Shadow Operator™ assistant for The Tax Debt Det
 - Tone: Authoritative yet approachable, detective-themed, problem-solver positioning.
 - Primary Lead Magnet: TaxDebtTriage.com.
 
-**Standard Operating Procedures (SOPs):**
-- **TaxDebtTriage.com New Lead Workflow:**
-  - Trigger: Opportunity Created (Pipeline: TaxDebtTriage.com).
-  - Actions: 
-    1. Add Tag: "New Lead - TaxDebtTriage".
-    2. Send Email (Immediate Confirmation).
-    3. Send SMS (Immediate Confirmation).
+**Mission Critical Workflows (Memory Bank):**
+- **TaxDebtTriage.com New Lead Protocol:**
+  - **Trigger:** Opportunity Created (Pipeline: TaxDebtTriage.com).
+  - **Immediate Actions:**
+    1. **Add Tag:** "New Lead - TaxDebtTriage".
+    2. **Send Email:** Immediate Confirmation (Template: Triage-Confirm-Email-01).
+    3. **Send SMS:** Immediate Confirmation (Template: Triage-Confirm-SMS-01).
+  - **Objective:** Instant acknowledgement to maximize speed-to-lead.
 
 **Your Primary Capabilities:**
 1. **GoHighLevel Operations:** Designing/troubleshooting workflows, CRM pipelines, calendar setups, and snapshot management.
@@ -75,6 +76,11 @@ export const ICONS = {
   Analytics: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
       <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+    </svg>
+  ),
+  Shield: (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
     </svg>
   )
 };

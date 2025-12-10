@@ -8,6 +8,13 @@ interface DashboardProps {
 
 const ACTIONS: QuickAction[] = [
   {
+    id: 'triage',
+    title: 'TaxDebtTriage Ops',
+    description: 'Lead flows, triage protocols, and follow-up.',
+    icon: ICONS.Shield,
+    promptPrefix: 'Review the TaxDebtTriage.com new lead workflow and suggest optimization for '
+  },
+  {
     id: 'ghl',
     title: 'GHL Architecture',
     description: 'Workflows, triggers, pipelines, and snapshots.',
